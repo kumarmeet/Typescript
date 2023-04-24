@@ -15,7 +15,7 @@ function addStrings(a: string, b: string): string {
 
 //It’s possible to use a union type to define a range of types for function parameters and results:
 
-function add(
+function addr(
   a: number | string,
   b: number | string
 ): number | string | undefined {

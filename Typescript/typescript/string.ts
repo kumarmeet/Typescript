@@ -1,26 +1,11 @@
-let price: number;
+let str: string = "Hello world";
 
-const count: number = 44;
+let description = `This TypeScript string can 
+span multiple 
+lines
+`;
 
-price = 40.44;
-
-price = 44;
-
-// binary
-let binary: number = 0b100;
-
-//octal
-let octal: number = 0o10;
-
-//hexa
-
-let hexa: number = 0xa;
-
-//bigint
-
-let big: bigint = 9007199254740991n;
-
-//type inferred
-
-//then it will automatically inferred by number type without specifying type of number
-let numInfe = 458;
+let firstName: string = `John`;
+let title: string = `Web Developer`;
+let profile: string = `I'm ${firstName}. 
+I'm a ${title}`;

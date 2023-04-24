@@ -11,7 +11,7 @@ function addStrings(a, b) {
     return a + b;
 }
 //It’s possible to use a union type to define a range of types for function parameters and results:
-function add(a, b) {
+function addr(a, b) {
     if (typeof a === "number" && typeof b === "number")
         return a + b;
     if (typeof a === "string" && typeof b === "string")
